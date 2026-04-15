@@ -1,0 +1,109 @@
+# =============================================================================
+# .gitignore — Face Mask Detection Project
+# =============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# Large ML Model Files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.pb
+*.ckpt
+*.onnx
+*.joblib
+
+# Large Data Files
+dataset/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# OpenCV DNN Models (optional - comment out if you want to version these)
+# deploy.prototxt.txt
+# res10_300x300_ssd_iter_140000.caffemodel
+
+# Training Outputs
+logs/
+checkpoints/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Any local configuration
+local_config.py
+secrets.py
+credentials.json
+
+# Video/Media files (if saving detection outputs)
+*.mp4
+*.avi
+*.mov
+*.flv
+*.wmv
+*.mkv
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.temp/

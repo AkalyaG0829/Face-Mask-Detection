@@ -1,0 +1,22 @@
+# =============================================================================
+# requirements.txt — Face Mask Detection Project
+# Install all dependencies with:  pip install -r requirements.txt
+# =============================================================================
+
+# Deep Learning framework
+tensorflow>=2.10.0
+
+# Computer Vision
+opencv-python>=4.7.0
+
+# Numerical computing
+numpy>=1.23.0
+
+# Data science utilities (train/test split, metrics)
+scikit-learn>=1.2.0
+
+# Plotting training graphs
+matplotlib>=3.7.0
+
+# Image processing (used internally by Keras)
+Pillow>=9.4.0
